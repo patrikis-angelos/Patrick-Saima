@@ -1,0 +1,10 @@
+#main{
+    align-content: center;
+    width:100vw;
+}
+
+#main_img{
+    width: 60vw;
+    display:block;
+    margin:0 auto;
+}
