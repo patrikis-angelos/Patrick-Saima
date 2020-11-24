@@ -16,6 +16,11 @@
     justify-content:space-between;
 }
 
+#grid_content
+{
+    width:50vw;
+    height:auto;
+}
 
 #Inflation{
     width:50vw;
@@ -23,7 +28,7 @@
     min-width: 800px;
 
     background-image: url("images/img1.png");
-    background-size: 50vw auto;
+    background-size: 100%;
     background-repeat: no-repeat;
 
     display:flex;
@@ -83,4 +88,9 @@ figcaption{
 
 #soc_flex button{
     margin-right: 32%;
+}
+
+aside{
+    float:right;
+    right:0px;
 }
