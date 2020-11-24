@@ -1,13 +1,21 @@
 #main_img{
     width: 60vw;
-    display:block;
-    margin:0 auto;
+    
+    
 }
 
-footer{
+#footer1{
+    
+        width:50vw;
+        font-size: small;
+        color: gray;
+}
+
+#footer2{
     display:flex;
     justify-content:space-between;
 }
+
 
 #Inflation{
     width:50vw;
@@ -34,4 +42,45 @@ footer{
     flex:0 1 calc(25% - 20px);
     padding-top:150px;
     padding-right:20px;
+}
+
+.flex_class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section p{
+    width: 50vw;
+}
+
+#super_jumbo{
+    width: 50vw;
+}
+figcaption{
+    width:50vw;
+}
+
+.social_icons{
+    width: auto;
+    height: 15px;
+
+
+}
+
+#soc_flex{
+    display: flex;
+
+    justify-content:flex-end;
+    
+    
+}
+
+#soc_flex div{
+    
+      margin-right: 25%;
+}
+
+#soc_flex button{
+    margin-right: 32%;
 }
