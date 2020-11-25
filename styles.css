@@ -12,9 +12,18 @@
 }
 
 #footer2{
-    display:flex;
-    justify-content:space-between;
+    
+    display: flex;
+    wrap:nowrap;    
+    width: 100%;
+    justify-content: space-around;
+            
 }
+
+#footer2 a{
+    font-size: 10px;
+}
+
 
 #grid_content
 {
@@ -74,22 +83,21 @@ figcaption{
 
 }
 
-#soc_flex{
-    display: flex;
-
-    justify-content:flex-end;
+#soc_flex button{
     
+       margin-left: 24VW;
     
 }
+ 
 
 #soc_flex div{
     
-      margin-right: 25%;
+    float: right;
+    margin-right: 25vw;
 }
 
-#soc_flex button{
-    margin-right: 32%;
-}
+
+
 
 aside{
     position: absolute;
