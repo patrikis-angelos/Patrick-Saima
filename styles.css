@@ -6,18 +6,16 @@
 
 #footer1{
     
-        width:50vw;
+        width:30vw;
         font-size: small;
         color: gray;
 }
 
 #footer2{
-    
-    display: flex;
-    wrap:nowrap;    
-    width: 100%;
+    display: flex;  
+    width: 70%;
     justify-content: space-around;
-            
+    margin:0 auto;     
 }
 
 #footer2 a{
@@ -66,7 +64,7 @@
 }
 
 section p{
-    width: 50vw;
+    width: 30vw;
 }
 
 #super_jumbo{
@@ -85,15 +83,18 @@ figcaption{
 
 #soc_flex button{
     
-       margin-left: 24VW;
+       margin-left: 34VW;
     
 }
  
+#soc_flex{
+    margin-bottom: 20px;
+}
 
 #soc_flex div{
     
     float: right;
-    margin-right: 25vw;
+    margin-right: 35vw;
 }
 
 
@@ -106,6 +107,7 @@ aside{
     height:500px;
     grid-template-rows: 40px repeat(3, 1fr);
     grid-template-columns: 100px 150px;
+    z-index:-1;
 }
 
 #ed_title{
@@ -125,4 +127,38 @@ aside img{
 aside a{
     align-self: center;
     padding-left:10px;
+}
+
+header{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    height: 5vh;
+    background-color: white;
+    border-bottom:1px solid rgb(202, 202, 202);
+}
+
+header img{
+    display:block;
+    margin:0 auto;
+    width:auto;
+    height:40px;
+    margin-top:5px;
+}
+
+header div{
+    float:right;
+    margin-top:12px;
+    margin-right:60px;
+}
+
+header a{
+    float:left;
+    margin-top:14px;
+    margin-left:60px;
+}
+
+article{
+    margin-top:5vh;
 }
