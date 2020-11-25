@@ -44,9 +44,10 @@
 
 #Inflation p{
     font-size: 12px;
-    flex:0 1 calc(25% - 20px);
-    padding-top:150px;
+    flex:0 1 calc(25% - 40px);
+    padding-top:14%;
     padding-right:20px;
+    margin-left:20px;
 }
 
 .flex_class{
@@ -91,6 +92,29 @@ figcaption{
 }
 
 aside{
-    float:right;
-    right:0px;
+    position: absolute;
+    left:80%;
+    display:grid;
+    height:500px;
+    grid-template-rows: 40px repeat(3, 1fr);
+    grid-template-columns: 100px 150px;
+}
+
+#ed_title{
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+    width:100%; 
+}
+
+aside img{
+    width:100px;
+    height:100px;
+    align-self: center;
+}
+
+aside a{
+    align-self: center;
+    padding-left:10px;
 }
