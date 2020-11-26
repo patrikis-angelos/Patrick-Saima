@@ -231,3 +231,20 @@ hr {
 .video_caption {
   text-align: center;
 }
+
+form {
+  position: absolute;
+  top: 8850px;
+  left: 150px;
+  text-align: center;
+}
+
+form ul {
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+fieldset {
+  border-radius: 5px;
+  border: 1px solid rgb(192, 192, 192);
+}

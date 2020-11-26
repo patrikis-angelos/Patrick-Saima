@@ -362,31 +362,37 @@
     </div>
 
     <form>
-        <ul>
-            <li>
-                <label for="name">Username: </label>
-                <input type="text" id="name" name="username">
-            </li>
-            <li>
-                <label for="mail">Email: </label>
-                <input type="email" id="mail" name="email">
-            </li>
-            <li>
-                <label for="comment">What are your thoughts about this article?</label>
-                <br>
-                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type Here"></textarea>
-            </li>
-            <li>
-                <p>What is your overall opinion about this article</p>
-                <input type="radio" name="opinion" value="neutral" checked> Neutral
-                <input type="radio" name="opinion" value="positive"> Positive
-                <input type="radio" name="opinion" value="negative"> Negative
-            </li>
-            <li>
-                <input type="checkbox" name="subside">I want to subscribe to the newsletter
-            </li>
-        </ul>
+        <fieldset>
+            <ul>
+                <fieldset>
+                    <li>
+                        <label for="name">Username: </label>
+                        <input type="text" id="name" name="username">
+                    </li>
+                    <li>
+                        <label for="mail">Email: </label>
+                        <input type="email" id="mail" name="email">
+                    </li>
+                </fieldset>
+                <fieldset>
+                    <li>
+                        <label for="comment">What are your thoughts about this article?</label>
+                        <br>
+                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type Here"></textarea>
+                    </li>
+                    <li>
+                        <p>What is your overall opinion about this article</p>
+                        <input type="radio" name="opinion" value="neutral" checked> Neutral
+                        <input type="radio" name="opinion" value="positive"> Positive
+                        <input type="radio" name="opinion" value="negative"> Negative
+                    </li>
+                </fieldset>
+                <li>
+                    <input type="checkbox" name="subside">I want to subscribe to the newsletter
+                </li>
+            </ul>
         <button type="submit">Send</button>
+    </fieldset>
     </form>
 
     <div class="art_links_Flex">
