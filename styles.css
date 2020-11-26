@@ -1,14 +1,14 @@
-#main_img {
+.main_img {
   width: 60vw;
 }
 
-#footer1 {
+.footer1 {
   width: 30vw;
   font-size: small;
   color: gray;
 }
 
-#footer2 {
+.footer2 {
   display: flex;
   width: 70%;
   justify-content: space-around;
@@ -18,24 +18,25 @@
 aside a {
   align-self: center;
   padding-left: 10px;
+  text-decoration: none;
+  color: black;
 }
 
 header a {
-  float: left;
-  margin-top: 14px;
-  margin-left: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-#footer2 a {
+.footer2 a {
   font-size: 10px;
 }
 
-#grid_content {
+.grid_content {
   width: 50vw;
   height: auto;
 }
 
-#Inflation {
+.Inflation {
   width: 50vw;
   height: 550px;
   min-width: 800px;
@@ -57,7 +58,7 @@ section p {
   width: 30vw;
 }
 
-#Inflation p {
+.Inflation p {
   font-size: 12px;
   flex: 0 1 calc(25% - 40px);
   padding-top: 14%;
@@ -71,7 +72,7 @@ section p {
   align-items: center;
 }
 
-#super_jumbo {
+.super_jumbo {
   width: 50vw;
 }
 
@@ -84,21 +85,26 @@ span {
   height: 15px;
 }
 
-#soc_flex button {
+.soc_flex button {
   margin-left: 34vw;
 }
 
-#soc_flex {
+.soc_flex {
   margin-bottom: 20px;
 }
 
-header div {
+.float_right {
   float: right;
   margin-top: 12px;
-  margin-right: 60px;
 }
 
-#soc_flex div {
+.float_left{
+  display: flex;
+  float: left;
+  margin-left: 60px;
+}
+
+.soc_flex div {
   float: right;
   margin-right: 35vw;
 }
@@ -107,13 +113,12 @@ aside {
   position: absolute;
   left: 80%;
   display: grid;
-  height: 500px;
-  grid-template-rows: 40px repeat(3, 1fr);
+  grid-template-rows: 40px repeat(3, 100px);
   grid-template-columns: 100px 150px;
-  z-index: -1;
+  row-gap: 10px;
 }
 
-#ed_title {
+.ed_title {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -132,19 +137,40 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 5vh;
+  height: 60px;
   background-color: white;
   border-bottom: 1px solid rgb(202, 202, 202);
+  z-index: 1;
 }
 
 header img {
   display: block;
-  margin: 0 auto;
+  margin-left:auto;
+  margin-right:auto;
   width: auto;
-  height: 5vh;
-  margin-top: 5px;
+  height: 30px;
 }
 
 article {
   margin-top: 5vh;
+}
+
+button {
+  background-color: rgb(86, 123, 149);
+  color:white;
+  border:1px solid;
+  border-radius:3px;
+  border-color:rgb(50, 104, 145);
+  padding:10px;
+}
+
+header div {
+  margin-right: 60px;
+}
+
+.space {
+  margin-top: 25px;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
 }

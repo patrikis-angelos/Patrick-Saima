@@ -10,24 +10,40 @@
 
 <body>
     <header>
-        <a href="">SPACE & COSMOS</a>
-        <div>
+        <div class = "float_left">
+            <a href=""><img src="icons/hum-icon.png"></a>
+            <a href=""><img src="icons/magnifying-icon.png"></a>
+            <a class = "space" href="">SPACE & COSMOS</a>
+        </div>
+        <div class = "float_right">
             <button>SUBSCRIBE NOW</button>
             <button>LOG IN</button>
         </div>
-        <img src="icons/nyt.png" alt="New York Times">
+        <a href=""><img src="icons/nyt.png" alt="New York Times"></a>
     </header>
     <article class="flex_class">
     <h1>Space Ripples Reveal Big Bang's Smoking Gun</h1>
 
     <section class="flex_class">
         <figure class="flex_class">
-            <img id = "main_img" src="images/18cosmos-superJumbo.jpg" alt="Alan Guth">
+            <img class = "main_img" src="images/18cosmos-superJumbo.jpg" alt="Alan Guth">
             <span>
                 Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe 
                 expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.Credit...Rick Friedman for The New York Times
             </span>
         </figure>
+        <div class = "athor_info">
+            <p>By Dennis Overbye</p>
+            <date>March 17, 2014</date>
+            <div class = "float_right">
+                <a href=""><img class = "social_icons"  src="icons/fb-icon.png"></a>
+                <a href=""><img class = "social_icons" src="icons/twitter-icon.png"></a>
+                <a href=""><img class = "social_icons" src="icons/mail-icon.png"></a>
+                <a href=""><img class = "social_icons" src="icons/share-icon.png"></a>
+                <a href=""><img class = "social_icons" src="icons/bookmark-icon.png"></a>
+                <a href=""><img class = "social_icons" src="icons/bubble-icon.png"></a>
+            </div>
+        </div>
         <p>
             CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a 
             year’s appointment at Stanford, stayed up late with his notebook and equations, venturing far beyond the world of known physics.
@@ -50,13 +66,19 @@
         </p>
         <div>
             <aside>
-                <p id="ed_title">Editors' picks</p>
-                <img src="images/editpic1.jpg" alt="Article picture">
-                <a href="">editors' pick 1</a>
-                <img src="images/editpic2.jpg" alt="Article picture">
-                <a href="">editors' pick 2</a>
-                <img src="images/editpic3.jpg" alt="Article picture">
-                <a href="">editors' pick 3</a>
+                <p class="ed_title">Editors' picks</p>
+                <img src="images/monolith.jpg" alt="Article picture">
+                <a href="https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html?action=click&algo=als_engaged_control_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=939105821&impression_id=e0c170f0-2fb2-11eb-9d88-1fb8fdbfcb73&index=0&pgtype=Article&region=ccolumn&req_id=502508623&surface=home-featured&action=click&module=editorContent&pgtype=Article&region=CompanionColumn&contentCollection=Trending">
+                    A Weird Monolith Found in the Utah Desert
+                </a>
+                <img src="images/worker.jpg" alt="Article picture">
+                <a href="https://www.nytimes.com/2020/11/23/travel/barroso-portugal-agriculture.html?action=click&algo=als_engaged_control_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=903337369&impression_id=e0c170f1-2fb2-11eb-9d88-1fb8fdbfcb73&index=1&pgtype=Article&region=ccolumn&req_id=502508623&surface=home-featured&action=click&module=editorContent&pgtype=Article&region=CompanionColumn&contentCollection=Trending">
+                    Snapshots of Daily Life in a Remote Region of Portugal
+                </a>
+                <img src="images/Politics.jpg" alt="Article picture">
+                <a href="https://www.nytimes.com/2020/11/24/books/review/the-last-american-aristocrat-henry-adams-david-s-brown.html?action=click&algo=als_engaged_control_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=63524237&impression_id=e0c170f2-2fb2-11eb-9d88-1fb8fdbfcb73&index=2&pgtype=Article&region=ccolumn&req_id=502508623&surface=home-featured&action=click&module=editorContent&pgtype=Article&region=CompanionColumn&contentCollection=Trending">
+                    The Brilliant, Bitter, Unlikable Scion of an American Political Dynasty
+                </a>
             </aside>
             <div>
                 <p>
@@ -109,12 +131,12 @@
     </section>
     <section class="flex_class">
         <h3>The Theory of Inflation</h3>
-        <figure id="grid_content" class="flex_class">
+        <figure class="grid_content" class="flex_class">
             <span>
                 Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly 
                 and so quickly in the instant after the Big Bang 13.8 billion years ago.
             </span>
-            <div id="Inflation">
+            <div class="Inflation">
                 <p>
                     <b>THE UNIVERSE</b>  is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere 
                     that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.
@@ -237,7 +259,7 @@
             he said, wintering over in 1994. “I’ve been hooked ever since,” he said.
         </p>
         <figure class="flex_class">
-            <img id=super_jumbo src="images/18cosmos-2-superJumbo.jpg" alt="Bicep2 Telescope">
+            <img class=super_jumbo src="images/18cosmos-2-superJumbo.jpg" alt="Bicep2 Telescope">
             <span>
                 The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a 
                 universe being wrenched violently apart at its birth.Credit...Steffen Richter/Associated Press
@@ -321,14 +343,14 @@
             “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”
         </p>
     </section>
-    <footer id="footer1">
+    <footer class="footer1">
         A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. 
         <a href="">Order Reprints</a> | <a href="">Today’s Paper</a> | <a href="">Subscribe</a>
     </footer>
          
     </article>
 
-    <div id="soc_flex">
+    <div class="soc_flex">
         <button>Read Comments</button>
         <div>
         <a href=""><img class="social_icons" src="icons/fb-icon.png" alt="facebook"></a>
@@ -338,7 +360,7 @@
     </div>
     </div>
 
-<footer id="footer2">
+<footer class="footer2">
     <a href="">© 2020 The New York Times Company</a>
     <a href="">NYTCo</a>
     <a href="">Contact Us</a>
