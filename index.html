@@ -361,6 +361,39 @@
     </div>
     </div>
 
+    <form> 
+        <fieldset>
+            <legend>Feedback Form</legend>
+            <div class="field_flex">
+               <div>
+                   <label for="usrnam">Name</label>
+                   <input type="text"  id="usrnam" name="username" maxlength="20" required>
+               </div>
+               <div>
+               <label for="mail">Email</label>
+               <input type="email" id="mail" name="useremail" maxlength="20" required>
+               </div>
+               <div>
+               <label for="usrcomment">Comment</label>
+               <textarea id="usrcomment" name="usercomment" maxlength="250"></textarea>
+               </div>
+               <div>
+                <p>What is your overall opinion about this article?</p>
+               <input type="radio" name="opinion" value="Positive"> Positive
+               <input type="radio" name="opinion" value="Negative"> Negative
+               <input type="radio" name="opinion" value="Neutral" checked> Neutral
+               </div>
+               <div>
+                   <input type="checkbox" name="sub" value="sub" checked>Subscribe to our newsletter
+               </div>
+               <div>
+                   <input type="submit" name="submit" value="Send">
+               </div>
+            </div>
+        </fieldset>
+    </form>
+
+
     <div class="art_links_Flex">
         <div class="flex_item1">
             <p class="grid_items">

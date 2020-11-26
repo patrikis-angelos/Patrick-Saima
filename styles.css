@@ -231,3 +231,32 @@ hr {
 .video_caption {
   text-align: center;
 }
+
+form{
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.field_flex{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  
+ 
+}
+
+.field_flex div{
+   padding-bottom: 20px;
+   }
+
+
+textarea{
+  height: 150px;
+  width: 100%;
+}
+
+
+
+
+
