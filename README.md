@@ -3,6 +3,7 @@
 # NYT Article
 
 > Replication of a NYT article.
+![screenshot](./images/scrshot-proj1.png)
 
 ## Built With
 
@@ -15,6 +16,8 @@
 https://patrick-angelos.github.io/Patrick-Saima/
 
 
+Clone:
+
 Clone the repository from the Github to your local folder
 using commads
 Git clone git@github.com:patrick-angelos/Patrick-Saima.git <your local Git Directory>
@@ -25,12 +28,16 @@ Git clone git@github.com:patrick-angelos/Patrick-Saima.git <your local Git Direc
 
 👤 **Author1**
 
-- GitHub: @patrick-angelos
+- GitHub:   @patrick-angelos
+- Twitter:  @AngelosPatrikis
+- Linkedin: Angelos Patrikis
 
 
 👤 **Author2**
 
-- GitHub: @saimaAnis21
+- GitHub:  @saimaAnis21
+- Twitter: @SheTALKS6
+- Linkedin:saima Anis
 
 ## 🤝 Contributing
 
