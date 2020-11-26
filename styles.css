@@ -119,6 +119,11 @@ header div {
   margin-right: 60px;
 }
 
+form div {
+  border-radius: 5px;
+  border: 1px solid rgb(192, 192, 192);
+}
+
 .soc_flex div {
   float: right;
   margin-right: 35vw;
@@ -242,9 +247,4 @@ form {
 form ul {
   list-style-type: none;
   margin-right: 40px;
-}
-
-form div {
-  border-radius: 5px;
-  border: 1px solid rgb(192, 192, 192);
 }
