@@ -174,3 +174,47 @@ header div {
   color:black;
   font-weight: bold;
 }
+
+.art_links_Flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.art_links_Flex a{
+  text-decoration: none;
+  color: black;
+}
+
+.flex_item1{
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 10px;
+}
+.flex_item1 img{
+ width: 200px;
+ height: auto;
+}
+
+.flex_item1 p{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid_items{
+  
+}
+
+
+.flex_item2{
+display: flex;
+flex-direction: column;
+width: 20%;
+align-content: space-between;
+justify-content: space-between;
+margin-left: 20px;
+}
+    
