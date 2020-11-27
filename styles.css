@@ -15,8 +15,8 @@ body {
 .footer2 {
   display: flex;
   width: 70%;
-  justify-content: space-around;
   margin: 0 auto;
+  justify-content: space-around;
 }
 
 aside a {
@@ -33,6 +33,9 @@ header a {
 
 .footer2 a {
   font-size: 10px;
+  text-decoration: none;
+  color: grey;
+  padding-left: 5px;
 }
 
 .grid_content {
@@ -217,13 +220,15 @@ article {
 .flex_item2 {
   display: flex;
   flex-direction: column;
-  width: 40%;
   margin-left: 20px;
+  flex-shrink: 0;
+  width:200px;
 }
 
 .flex_item2 a {
   margin-bottom: 20px;
   font-size: 20px;
+  
 }
 
 hr {
@@ -232,4 +237,8 @@ hr {
 
 .video_caption {
   text-align: center;
+}
+
+main{
+  margin-top: 80px;
 }
