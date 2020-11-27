@@ -65,6 +65,7 @@ section p {
 .social_icons {
   width: auto;
   height: 15px;
+  margin-right: 5px;
 }
 
 .button_blue {
@@ -241,20 +242,31 @@ main {
   display: grid;
 }
 
-.footer_grid{
-width: 75%;
-margin: 0 auto;
-grid-template-columns: repeat(6,1fr);
-grid-template-rows: 20px 400px;
+.footer_grid {
+  width: 65%;
+  margin: 0 auto;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: 40px 400px;
 }
 
-.column{
+.column {
   flex-direction: column;
 }
 
-.footer2_title{
+.footer2_title {
+  width: 200px;
   grid-column-start: 1;
   grid-column-end: 7;
-  
 }
 
+.bottom_margin {
+  margin-bottom: 10px;
+}
+
+footer a {
+  margin-bottom: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
