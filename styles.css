@@ -1,5 +1,5 @@
 body {
-  font-family: nyt-cheltenham,Georgia, 'Times New Roman', Times, serif;
+  font-family: nyt-cheltenham, Georgia, 'Times New Roman', Times, serif;
 }
 
 .main_img {
@@ -184,13 +184,12 @@ article {
   flex-direction: column;
   margin-left: 20px;
   flex-shrink: 0;
-  width:200px;
+  width: 200px;
 }
 
 .flex_item2 a {
   margin-bottom: 20px;
   font-size: 19px;
-  
 }
 
 hr {
@@ -201,14 +200,12 @@ hr {
   text-align: center;
 }
 
-main{
+main {
   margin-top: 80px;
 }
 
-
-
 .flex {
-  display: flex; 
+  display: flex;
 }
 
 .no_deco {
