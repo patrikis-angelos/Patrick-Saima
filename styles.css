@@ -67,13 +67,18 @@ section p {
   height: 15px;
 }
 
-button {
+.button_blue {
   background-color: rgb(86, 123, 149);
   color: white;
   border: 1px solid;
   border-radius: 3px;
   border-color: rgb(50, 104, 145);
   padding: 10px;
+}
+
+.button_blank {
+  border: none;
+  margin-top: 12px;
 }
 
 .soc_flex button {
@@ -106,7 +111,6 @@ header div {
 aside {
   position: absolute;
   left: 80%;
-  display: grid;
   grid-template-rows: 40px repeat(3, 100px);
   grid-template-columns: 100px 150px;
   row-gap: 10px;
@@ -149,7 +153,7 @@ article {
 }
 
 .space {
-  margin-top: 25px;
+  margin-top: 20px;
   font-weight: bold;
 }
 
@@ -159,7 +163,6 @@ article {
 }
 
 .flex_item1 {
-  display: grid;
   grid-template-rows: 50px repeat(3, 350px);
   grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
@@ -232,4 +235,8 @@ main {
 
 .author {
   font-size: 18px;
+}
+
+.grid {
+  display: grid;
 }
