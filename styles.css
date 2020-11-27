@@ -1,3 +1,7 @@
+body {
+  font-family: nyt-cheltenham,Georgia, 'Times New Roman', Times, serif;
+}
+
 .main_img {
   width: 60vw;
 }
@@ -190,9 +194,8 @@ article {
 
 .flex_item1 {
   display: grid;
-  grid-template-rows: 20px repeat(3, 350px);
+  grid-template-rows: 50px repeat(3, 350px);
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 30px;
   column-gap: 10px;
 }
 
@@ -204,24 +207,23 @@ article {
 .flex_item1 p {
   grid-column-start: 1;
   grid-column-end: 4;
-  font-weight: bold;
 }
 
 .grid_items p {
   width: 300px;
-  font-weight: bold;
+  font-size: 20px;
 }
 
 .flex_item2 {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 40%;
   margin-left: 20px;
 }
 
 .flex_item2 a {
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 hr {
