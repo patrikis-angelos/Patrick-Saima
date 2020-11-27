@@ -8,22 +8,16 @@ body {
 
 .footer1 {
   width: 30vw;
-  font-size: small;
-  color: gray;
 }
 
 .footer2 {
-  display: flex;
   width: 70%;
   margin: 0 auto;
   justify-content: space-around;
 }
 
 aside a {
-  align-self: center;
   padding-left: 10px;
-  text-decoration: none;
-  color: black;
 }
 
 header a {
@@ -32,39 +26,27 @@ header a {
 }
 
 .footer2 a {
-  font-size: 10px;
-  text-decoration: none;
-  color: grey;
   padding-left: 5px;
 }
 
 .grid_content {
-  width: 50vw;
   height: auto;
 }
 
 .Inflation {
-  width: 50vw;
   height: 550px;
   min-width: 800px;
   background-image: url("images/img1.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
 }
 
-@media (max-width: 1200px) {
-  #Inflation {
-    background-size: 800px auto;
-  }
-}
-
 section p {
   width: 30vw;
-  font-size: 20px;
-  font-family: georgia, 'times new roman', times, serif;
+  font-size: 23px;
+  line-height: 30px;
 }
 
 .Inflation p {
@@ -76,17 +58,8 @@ section p {
 }
 
 .flex_class {
-  display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.super_jumbo {
-  width: 50vw;
-}
-
-span {
-  width: 50vw;
 }
 
 .social_icons {
@@ -117,7 +90,6 @@ button {
 }
 
 .float_left {
-  display: flex;
   float: left;
   margin-left: 60px;
 }
@@ -127,7 +99,7 @@ header div {
 }
 
 .soc_flex div {
-  float: right;
+  margin-top: 0;
   margin-right: 35vw;
 }
 
@@ -151,7 +123,6 @@ aside {
 aside img {
   width: 100px;
   height: 100px;
-  align-self: center;
 }
 
 header {
@@ -179,20 +150,12 @@ article {
 
 .space {
   margin-top: 25px;
-  text-decoration: none;
-  color: black;
   font-weight: bold;
 }
 
 .art_links_Flex {
-  display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.art_links_Flex a {
-  text-decoration: none;
-  color: black;
 }
 
 .flex_item1 {
@@ -214,11 +177,10 @@ article {
 
 .grid_items p {
   width: 300px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .flex_item2 {
-  display: flex;
   flex-direction: column;
   margin-left: 20px;
   flex-shrink: 0;
@@ -227,7 +189,7 @@ article {
 
 .flex_item2 a {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 19px;
   
 }
 
@@ -241,4 +203,36 @@ hr {
 
 main{
   margin-top: 80px;
+}
+
+
+
+.flex {
+  display: flex; 
+}
+
+.no_deco {
+  text-decoration: none;
+  color: black;
+}
+
+.half_width {
+  width: 50vw;
+}
+
+.gray {
+  color: gray;
+}
+
+.center_align {
+  align-self: center;
+}
+
+.small {
+  font-size: small;
+  line-height: normal;
+}
+
+.author {
+  font-size: 18px;
 }
