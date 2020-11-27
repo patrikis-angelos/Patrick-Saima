@@ -254,12 +254,12 @@ main {
   margin: 0 auto;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 40px 400px;
-  column-gap: 0px;
+  column-gap: 0;
   margin-bottom: 10px;
 }
 
 .grid_item {
-  margin-right:50px;
+  margin-right: 50px;
 }
 
 .column {
