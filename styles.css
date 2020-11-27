@@ -25,6 +25,10 @@ header a {
   margin-top: 20px;
 }
 
+footer a {
+  margin-bottom: 5px;
+}
+
 .footer2 a {
   padding-left: 5px;
 }
@@ -243,9 +247,9 @@ main {
 }
 
 .footer_grid {
-  width: 65%;
+  width: 63%;
   margin: 0 auto;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 40px 400px;
 }
 
@@ -263,10 +267,10 @@ main {
   margin-bottom: 10px;
 }
 
-footer a {
-  margin-bottom: 5px;
-}
-
 footer a:hover {
   text-decoration: underline;
+}
+
+.big_button {
+  width: 300px;
 }
