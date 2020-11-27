@@ -250,12 +250,16 @@ main {
 }
 
 .footer_grid {
-  width: 65vw;
+  width: 70vw;
   margin: 0 auto;
-  grid-template-columns: repeat(2, 2fr) repeat(2, 1fr) repeat(2, 2fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 40px 400px;
-  column-gap: 120px;
+  column-gap: 0px;
   margin-bottom: 10px;
+}
+
+.grid_item {
+  margin-right:50px;
 }
 
 .column {
