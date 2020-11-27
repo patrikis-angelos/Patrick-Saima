@@ -48,9 +48,10 @@ footer a {
 }
 
 section p {
-  width: 30vw;
+  width: 32vw;
   font-size: 23px;
   line-height: 30px;
+  margin: 20px 0;
 }
 
 .Inflation p {
@@ -83,7 +84,9 @@ section p {
 
 .button_blank {
   border: none;
-  margin-top: 12px;
+  margin-top: 18px;
+  margin-left: 8px;
+  background-color: white;
 }
 
 .soc_flex button {
@@ -247,10 +250,12 @@ main {
 }
 
 .footer_grid {
-  width: 63%;
+  width: 65vw;
   margin: 0 auto;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(2, 2fr) repeat(2, 1fr) repeat(2, 2fr);
   grid-template-rows: 40px 400px;
+  column-gap: 120px;
+  margin-bottom:10px;
 }
 
 .column {
@@ -263,6 +268,10 @@ main {
   grid-column-end: 7;
 }
 
+.footer2_title img {
+  width:200px;
+}
+
 .bottom_margin {
   margin-bottom: 10px;
 }
@@ -273,4 +282,8 @@ footer a:hover {
 
 .big_button {
   width: 300px;
+}
+
+h1 {
+  font-size: 40px;
 }
