@@ -18,7 +18,7 @@ https://patrick-angelos.github.io/Patrick-Saima/
 
 Clone:
 
-Clone the repository from Github with: 
+Clone the repository from GitHub with: 
 `git clone git@github.com:patrick-angelos/Patrick-Saima.git`
 
 ## Authors
