@@ -18,11 +18,8 @@ https://patrick-angelos.github.io/Patrick-Saima/
 
 Clone:
 
-Clone the repository from the Github to your local folder
-using commads
-Git clone git@github.com:patrick-angelos/Patrick-Saima.git <your local Git Directory>
-
-
+Clone the repository from GitHub with: 
+`git clone git@github.com:patrick-angelos/Patrick-Saima.git`
 
 ## Authors
 
